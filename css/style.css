@@ -1,0 +1,297 @@
+/* Show it is fixed to the top */
+
+/*General*/
+
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+	font-family: 'Lato', sans-serif;
+}
+
+html,body{
+
+	overflow-x: hidden;
+
+	height: 100%;
+}
+
+body {
+
+  background-color: #eeeeee;
+
+  color: #333333;
+}
+
+h1{
+
+	color: #53d0d5;
+
+	text-align: center;
+
+	margin-top: 3%;
+}
+
+/*Boot CSS*/
+
+.center{
+
+	width: 100%;
+
+	padding: 0 2%;
+
+	margin: 0 auto;
+}
+
+.center2{
+
+	max-width: 1280px;
+
+	padding: 0 1%;
+
+	margin: 0 auto;
+}
+
+.w33{
+
+	display: inline-block;
+
+	width: 32%;
+}
+
+.w50{
+
+	display: inline-block;
+
+	width: 49%;
+}
+
+.w96{
+
+	width: 96%;
+	padding: 0 auto;
+}
+
+.w100{
+
+	width: 100%;
+}
+
+.left{
+
+	float: left;
+}
+
+.middle{
+
+	margin-left: 2%;
+}
+
+.right{
+
+	float: right;
+}
+
+.clear{
+
+	clear: both;
+}
+
+/*Slider*/
+
+section.banner-container{
+
+	height: 90%;
+
+	width: 100%;
+
+	position: relative;
+}
+
+.banner-single{
+
+	position: absolute;
+	
+	left: 0;
+	
+	top: 0;
+	
+	z-index: 1;
+	
+	width: 100%;
+	
+	height: 100%;
+	
+	background-size: cover;
+	
+	background-position: center;
+}
+
+/*Navbar*/
+
+.fixed{
+
+	position: fixed;
+	
+	top: 0;
+}
+
+nav.navbar.navbar-expand-md{
+
+	background-color: #ff739e;
+
+	height: 10%;
+
+	width: 100%;
+}
+
+ul.navbar-nav.mr-auto{
+
+	position: absolute;
+
+	right: 0;
+}
+
+li.nav-item{
+
+	margin-top: 10px;
+	
+	margin-bottom: 10px;
+}
+
+a.navbar-text.tt{
+
+	margin-right: 50px;
+
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+a.navbar-text.t{
+
+	color: white;
+
+	width: 100%;
+	
+	text-decoration: none;
+	
+	margin-right: 50px;
+
+	color: #ffffff;
+}
+
+button.navbar-toggler{
+
+	color: white;
+}
+
+/*Conteudo Paginas*/
+
+
+/*INICIO*/
+
+section.card{
+
+	background-color: #fc9fbc;
+	
+	color: #333333;
+
+	text-align: center;
+
+	margin-top: 50px;
+
+	margin-bottom: 50px;
+
+	height: auto;
+}
+
+/*NOVIDADES*/
+
+
+/*CHEFS*/
+
+
+/*RECEITAS*/
+
+
+/*SOBRE*/
+
+section.sobre{
+
+	text-align: center;
+}
+
+
+/*Conteudo Paginas*/
+
+/*Footer*/
+
+footer{
+
+	background-color: #ff739e;
+	
+	color: white;
+
+	text-align: center;
+
+	width: 100%;
+
+	height: 10%;
+
+	overflow-y: hidden;
+
+	padding-top: 1.5%;
+}
+
+@media screen and (max-width: 1177px){
+
+	div.btn-group{
+
+		position: fixed;
+	
+		top: 5px;
+	
+		right: 10px;
+	}
+
+	a.navbar-text.t{
+
+		color: #0800a6;
+
+		width: 100%;
+		
+		text-decoration: none;
+		
+		margin-top: 10px;
+		
+		margin-bottom: 10px;
+
+		text-align: center; 
+	}
+
+	a.navbar-text.tt{
+
+		color: #0800a6;
+
+		width: 100%;
+		
+		text-decoration: none;
+		
+		margin-top: 10px;
+		
+		margin-bottom: 10px;
+
+		text-align: right; 
+
+		margin-left: 0px;
+	}
+}
+.receita-title{
+	color:#2ac8de;
+	text-align: center;
+}
