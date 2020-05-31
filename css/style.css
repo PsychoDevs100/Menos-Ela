@@ -131,7 +131,10 @@ section.banner-container{
 	background-position: center;
 }
 
+
 /*Navbar*/
+
+/*Desktop*/
 
 .fixed{
 
@@ -190,6 +193,109 @@ button.navbar-toggler{
 	color: white;
 }
 
+/*Mobile*/
+
+.side-menu-wrapper { /* style menu wrapper */
+
+	background: white;
+	
+	padding: 40px 20px;
+	
+	position: fixed; /* Fixed position */
+	
+	top: 0;
+	
+	right: 0; /* Sidebar initial position. "right" for right positioned menu */
+	
+	height: 100%;
+	
+	z-index: 2;
+	
+	transition: 0.5s; /* CSS transition speed */
+	
+	width: 300px;
+	
+	font: 20px;
+	
+	box-sizing: border-box;
+}
+
+.side-menu-wrapper > ul{ /* css ul list style */
+	
+	list-style:none;
+	
+	padding:0;
+	
+	margin:0;
+    
+    overflow-y: auto; /* enable scroll for menu items */
+	
+	height:95%;
+}
+
+.side-menu-wrapper > ul > li > a { /* links */
+    
+    display: block;
+    
+    padding: 6px 4px;
+    
+    color: #ff739e;
+    
+    transition: 0.3s;
+	
+	text-decoration: none;
+
+	text-align: center;
+}
+
+.side-menu-wrapper > a.menu-close { /* close button */
+    
+    padding: 8px 0 4px 23px;
+    
+    color: #ff739e;
+    
+    display: block;
+    
+    margin: -30px 0 -10px -20px;
+    
+    width: 25px;
+
+    height: 25px;
+    
+    text-decoration: none;
+}
+
+.menu-overlay { /* overlay */
+    
+    height: 100%;
+    
+    width: 0;
+    
+    position: fixed;
+    
+    z-index: 1;
+    
+    top: 0;
+    
+    left: 0;
+    
+    background-color: rgba(0,0,0,.7);
+    
+    overflow-y: auto;
+    
+    overflow-x: hidden;
+    
+    text-align: center;
+    
+    opacity: 0;
+    
+    transition: opacity 1s;
+}
+
+
+/*Navbar*/
+
+
 /*Conteudo Paginas*/
 
 
@@ -235,51 +341,41 @@ a.receita-title{
 
 	justify-content: center;
 
-	font-size: medium;
-
-	flex-direction: column;
+	font-size: small;
 }
 
-.div-one{
-	display: flex;
+.text-image{
+	float: left;
 
-	flex-direction: column;
-
-    padding: 35px 70px;
+	width: auto;
+	
 }
 
-.div-two{
-   padding: 35px 70px;
+.text{
+	float: right;
+
+	width: auto;
+
+	height: 100%;
 }
 
-.div-three{
- 
-	padding: 35px 70px;
-}
-
-
-.div-two li,.div-three li {
+.text li {
 	list-style: none;
 
 	flex-direction: column;
 }
 
-.receipt-title{
-	text-align: center;
-
-	color:#27b8b8;
+.part-1{
+	width: fit-content;	
 }
 
-.ingredients,.preparo{
-	text-align: center;
-}
+.part-2{
+	width: fit-content;
+	
+	text-align: left;
 
-.picture{
-	width: 5%
-	height:5%
-	text-align: center;
+	padding-right: 50%;
 }
-
 
 /*SOBRE*/
 
@@ -317,6 +413,8 @@ footer{
 		
 		color: white;
 	
+		text-align: center;
+	
 		width: 100%;
 	
 		height: 10%;
@@ -325,9 +423,9 @@ footer{
 	
 		padding-top: 1.5%;
 	
-		display: flex;
-		
-		align-items: flex-end;
+		position: absolute;
+	
+		bottom: 0;
 	
 }
 
