@@ -134,6 +134,17 @@ section.banner-container{
 
 /*Navbar*/
 
+img.logomenosela{
+
+	max-width: 70px;
+
+	max-height: 40px;
+
+	width: 100%;
+
+	height: 100%;
+}
+
 /*Desktop*/
 
 .fixed{
