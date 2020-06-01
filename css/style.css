@@ -352,41 +352,55 @@ a.receita-title{
 
 	justify-content: center;
 
-	font-size: small;
+	font-size: medium;
+
+	flex-direction: column;
 }
 
-.text-image{
-	float: left;
+.div-one{
+	display: flex;
 
-	width: auto;
+	flex-direction: column;
+}
+
+.div-one,.div-two,.div-three{
+	padding: 35px 50px;
 	
+	margin: 10px;
+
+	background-size: auto;
 }
 
-.text{
-	float: right;
 
-	width: auto;
-
-	height: 100%;
-}
-
-.text li {
+.div-two li,.div-three li {
 	list-style: none;
 
 	flex-direction: column;
 }
 
-.part-1{
-	width: fit-content;	
+.receipt-title{
+	text-align: center;
+
+	color:#27b8b8;
 }
 
-.part-2{
-	width: fit-content;
+.ingredients{
+	text-align: center;
 	
-	text-align: left;
-
-	padding-right: 50%;
 }
+
+.preparo{
+	text-align:left;
+	padding: 35px 50px;
+	
+}
+
+.picture{
+	width: 5%
+	height:5%
+	text-align: center;
+}
+
 
 /*SOBRE*/
 
