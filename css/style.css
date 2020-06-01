@@ -413,9 +413,13 @@ footer{
 	height: 10%;
 
 	overflow-y: hidden;
+}
 
-	padding-top: 1.5%;
+footer p{
 
+	position: relative;
+
+	margin-top: 1.5%;
 }
 
 .footer{
