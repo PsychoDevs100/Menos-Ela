@@ -18,6 +18,10 @@ html,body{
 	overflow-x: hidden;
 
 	height: 100%;
+
+	background-size: cover;
+	
+	background-position: center;
 }
 
 body {
@@ -352,53 +356,41 @@ a.receita-title{
 
 	justify-content: center;
 
-	font-size: medium;
-
-	flex-direction: column;
+	font-size: small;
 }
 
-.div-one{
-	display: flex;
+.text-image{
+	float: left;
 
-	flex-direction: column;
-}
-
-.div-one,.div-two,.div-three{
-	padding: 35px 50px;
+	width: auto;
 	
-	margin: 10px;
-
-	background-size: auto;
 }
 
+.text{
+	float: right;
 
-.div-two li,.div-three li {
+	width: auto;
+
+	height: 100%;
+}
+
+.text li {
 	list-style: none;
 
 	flex-direction: column;
 }
 
-.receipt-title{
-	text-align: center;
-
-	color:#27b8b8;
+.part-1{
+	width: fit-content;	
 }
 
-.ingredients{
-	text-align: center;
+.part-2{
+	width: fit-content;
 	
-}
+	text-align: left;
 
-.preparo{
-	text-align:left;
-	padding: 35px 50px;
-	
+	padding-right: 50%;
 }
-
-.picture{
-	text-align: center;
-}
-
 
 /*SOBRE*/
 
