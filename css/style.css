@@ -342,6 +342,24 @@ section.card{
 	text-align: center;
 }
 
+.chef-intro{
+	text-align: center;
+	
+}
+
+.imagem-chef{
+	text-align: center;
+}
+
+.main-chef{
+	margin: 20px 50px;
+	text-align: justify;
+	border: 1px #e6edec;
+    padding: 25px 50px 75px;
+	background-color:#e6edec ;
+	
+}
+
 
 /*RECEITAS*/
 
