@@ -1,21 +1,23 @@
 <html lang="pt-br">
 
-<head >
+<head>
 
   <meta charset="utf-8">
 
   <title>Page</title>
-  
+
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
   <!--fonte_google-->
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet"/>
-  <link href="css/all.css" rel="stylesheet"/>
+  <link href="css/estilo.css" rel="stylesheet" />
+  <link href="css/all.css" rel="stylesheet" />
 
   <!--Link Site-->
 
@@ -23,136 +25,190 @@
 
 </head>
 
-<body>
+<body style="background-image: url('background_menos_ela.jpg');">
 
   <header>
-  
+
     <nav class="navbar navbar-expand-md">
 
-      <img src="logomenosela.jpg" width="70" height="40"/>
-      
-      <button class="navbar-toggler" style="outline: none;" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+      <img class="logomenosela" src="logomenosela.jpg" />
+
+      <button class="navbar-toggler menu-open" style="outline: none;" type="button">
 
         <i class="fas fa-bars"></i>
-        
+
       </button>
-        
+
       <div class="collapse navbar-collapse" id="navbarCollapse">
-    
+
         <ul class="navbar-nav mr-auto" style="padding-left: 0;">
-          
+
           <li class="nav-item">
-          
+
             <a class="navbar-text tt" href="index.html">INICIO</a>
-          
-          </li>
-          
-          <li class="nav-item">
-          
-            <a class="navbar-text t" href="novidades.html">NOVIDADES</a>
-          
+
           </li>
 
           <li class="nav-item">
-          
+
+            <a class="navbar-text t" href="novidades.html">NOVIDADES</a>
+
+          </li>
+
+          <li class="nav-item">
+
             <a class="navbar-text t" href="chefs.html">CHEFS</a>
-          
+
           </li>
-          
+
           <li class="nav-item">
-          
+
             <a class="navbar-text t" href="receitas.html">RECEITAS</a>
-          
+
           </li>
-          
+
           <li class="nav-item">
-          
+
             <a class="navbar-text t" href="sobre.html">SOBRE</a>
-          
+
           </li>
 
         </ul>
 
       </div>
-        
+
     </nav>
+
+    <div class="menu-overlay">
+
+      <aside class="side-menu-wrapper">
+
+        <a href="" class="menu-close"><i class="fas fa-times"></i></a>
+
+        <ul>
+
+          <li class="nav-item">
+
+            <a class="" href="index.html">INICIO</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="" href="novidades.html">NOVIDADES</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="" href="chefs.html">CHEFS</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="" href="receitas.html">RECEITAS</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="" href="sobre.html">SOBRE</a>
+
+          </li>
+
+        </ul>
+
+      </aside>
+
+    </div>
 
   </header>
 
-  <div class="center">
+  <div class="center-novidades">
 
-    <h1>NOVIDADES</h1>
+    <h1>NOVIDADES<h1>
+        <div class="container">
 
-    <section style="margin: 3% 0;" class="card w100 left">
-    
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      
-      <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
-        from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-        written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
-        line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-      </p>
+          <h2> Vejam aqui as novidades sobre o mundo da culinárias, saúde e alimentação.</h2>
 
-    </section>
+          <div class="card-new">
+            <div class="card-body"><a href="#">Entenda a diferença entre vegetarianos, veganos e plant-based</a></div>
+          </div>
 
-    <section style="margin: 3% 0;" class="card w100 right">
-    
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+          <br>
 
-      <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
-        from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-        written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
-        line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-      </p>
+          <div class="card-new">
+            <div class="card-body"><a href="#">Aprenda a fazer uma marmita saudável e prática</a></div>
+          </div>
 
-      <div class="clear"></div>
+          <br>
 
-    </section>
+          <div class="card-new">
+            <div class="card-body"><a href="#">Saiba como reaproveitar cascas de legumes e frutas</a></div>
+          </div>
 
-  </div>
+          <br>
 
-  <footer>
-    
-    <p>Desenvolvido por Psycho Devs<sup>TM</sup></p>
+          <div class="card-new">
+            <div class="card-body"><a href="#">10 dicas para se alimentar melhor</a></div>
+          </div>
 
-  </footer>
+          <br>
 
-<!-- Bootstrap core JavaScript
+          <div class="card-new">
+            <div class="card-body"><a href="#">A importância de aprender a cozinhar</a></div>
+          </div>
+
+          <br>
+
+          <div class="card-new">
+            <div class="card-body"><a href="#">O que não pode faltar em sua geladeira</a></div>
+          </div>
+
+          <br>
+
+          <div class="card-new">
+            <div class="card-body"><a href="#">Vegetais: compensa investir nos orgânicos?</a></div>
+          </div>
+
+        </div>
+
+        <footer>
+
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+
+          <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+
+          <p>Desenvolvido por Psycho Devs<sup>TM</sup></p>
+
+        </footer>
+
+
+        <!-- Bootstrap core JavaScript
  ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-3.2.1.slim.min.js"></script>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
 
-<script src="js/popper.min.js"></script>
+        <script src="js/popper.min.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
-<script src="js/script.js"></script>
+        <script src="js/script.js"></script>
 
-<script src="js/jquery.js"></script>
+        <script src="js/jquery.js"></script>
 
- <!--<script src="<?php echo INCLUDE_PATH; ?>js/constants.js"></script>--> 
+        <!--Página Novidades-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <!--<script src="<?php echo INCLUDE_PATH; ?>js/constants.js"></script>-->
 
 </body>
 
