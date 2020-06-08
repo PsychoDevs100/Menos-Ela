@@ -10,6 +10,8 @@ $(function(){
 
 	change();
 
+	changeSlide();
+
 	function init() {
 		
 		$('div.banner-single').hide();
@@ -35,5 +37,63 @@ $(function(){
 		},delay * 1000);
 	}
 
-	
+	function changeSlide() {
+
+		$(document).ready(function(){
+
+			$('.slide_galery').slick({
+
+				dots: true,
+
+				arrows: true,
+
+				autoplay: false,
+
+			  	infinite: false,
+			  	
+			  	centerMode: false,
+			  	
+			  	speed:1000,
+			  	
+			  	slidesToShow: 3,
+			    
+			    slidesToScroll: 1,
+
+		        responsive: [
+				{
+		      		breakpoint: 1024,
+		      		
+		      		settings: {
+		        		
+		        		autoplay: true
+		      		}
+
+		  	    },
+
+		    	{
+		      		breakpoint: 768,
+		      		
+		      		settings: {
+		        		
+		        		slidesToShow: 2
+		      		}
+
+		  	    },
+
+		  	    {
+			      breakpoint: 375,
+			      	
+			      	settings: {
+
+			        	slidesToShow: 1
+			    	}
+		  	    }
+
+		  	    ]
+
+			});
+
+	    });
+	}
+
 })

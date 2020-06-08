@@ -76,4 +76,112 @@ $(function(){
     
     }
 
+    
+
+    document.getElementById("demo").onmouseenter = function() {mouseEnter()};
+
+    document.getElementById("demo").onmouseleave = function() {mouseLeave()};
+    
+
+    function mouseEnter() {
+        
+      document.getElementById("demo").style.background = "rgba(0,0,0,0.7)";
+
+      document.getElementById("demo").style.color = "white";
+    }
+
+    function mouseLeave() {
+        
+      document.getElementById("demo").style.background = "transparent";
+
+      document.getElementById("demo").style.color = "transparent";
+    }
+
+
+
+
+    document.getElementById("demo2").onmouseenter = function() {mouseEnter2()};
+
+    document.getElementById("demo2").onmouseleave = function() {mouseLeave2()};
+    
+
+    function mouseEnter2() {
+        
+      document.getElementById("demo2").style.background = "rgba(0,0,0,0.7)";
+
+      document.getElementById("demo2").style.color = "white";
+    }
+
+    function mouseLeave2() {
+        
+      document.getElementById("demo2").style.background = "transparent";
+
+      document.getElementById("demo2").style.color = "transparent";
+    }
+
+
+
+
+    document.getElementById("demo3").onmouseenter = function() {mouseEnter3()};
+
+    document.getElementById("demo3").onmouseleave = function() {mouseLeave3()};
+    
+
+    function mouseEnter3() {
+        
+      document.getElementById("demo3").style.background = "rgba(0,0,0,0.7)";
+
+      document.getElementById("demo3").style.color = "white";
+    }
+
+    function mouseLeave3() {
+        
+      document.getElementById("demo3").style.background = "transparent";
+
+      document.getElementById("demo3").style.color = "transparent";
+    }
+
+
+
+
+    document.getElementById("demo4").onmouseenter = function() {mouseEnter4()};
+
+    document.getElementById("demo4").onmouseleave = function() {mouseLeave4()};
+    
+
+    function mouseEnter4() {
+        
+      document.getElementById("demo4").style.background = "rgba(0,0,0,0.7)";
+
+      document.getElementById("demo4").style.color = "white";
+    }
+
+    function mouseLeave4() {
+        
+      document.getElementById("demo4").style.background = "transparent";
+
+      document.getElementById("demo4").style.color = "transparent";
+    }
+
+
+
+
+    document.getElementById("demo5").onmouseenter = function() {mouseEnter5()};
+
+    document.getElementById("demo5").onmouseleave = function() {mouseLeave5()};
+    
+
+    function mouseEnter5() {
+        
+      document.getElementById("demo5").style.background = "rgba(0,0,0,0.7)";
+
+      document.getElementById("demo5").style.color = "white";
+    }
+
+    function mouseLeave5() {
+        
+      document.getElementById("demo5").style.background = "transparent";
+
+      document.getElementById("demo5").style.color = "transparent";
+    }
 })

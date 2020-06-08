@@ -1,21 +1,27 @@
 <html lang="pt-br">
 
-<head>
-
+<head >
+  
   <meta charset="utf-8">
 
   <title>Page</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
 
   <!--fonte_google-->
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <link href="css/all.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet"/>
+
+  <link href="css/all.css" rel="stylesheet"/>
+
+  <!-- Slick CSS -->
+  <link href="css/slick.css" rel="stylesheet"/>
+
+  <link href="css/slick-theme.css" rel="stylesheet"/>
 
   <!--Link Site-->
 
@@ -26,55 +32,55 @@
 <body style="background-image: url('background_menos_ela.jpg');">
 
   <header>
-
+  
     <nav class="navbar navbar-expand-md">
 
-      <img class="logomenosela" src="logomenosela.jpg" />
-
+      <img class="logomenosela" src="logomenosela.jpg"/>
+      
       <button class="navbar-toggler menu-open" style="outline: none;" type="button">
 
         <i class="fas fa-bars"></i>
-
+        
       </button>
-
+        
       <div class="collapse navbar-collapse" id="navbarCollapse">
-
+    
         <ul class="navbar-nav mr-auto" style="padding-left: 0;">
-
+          
           <li class="nav-item">
-
+          
             <a class="navbar-text tt" href="index.html">INICIO</a>
-
+          
           </li>
-
+          
           <li class="nav-item">
-
+          
             <a class="navbar-text t" href="novidades.html">NOVIDADES</a>
-
+          
           </li>
 
           <li class="nav-item">
-
+          
             <a class="navbar-text t" href="chefs.html">CHEFS</a>
-
+          
           </li>
-
+          
           <li class="nav-item">
-
+          
             <a class="navbar-text t" href="receitas.html">RECEITAS</a>
-
+          
           </li>
-
+          
           <li class="nav-item">
-
+          
             <a class="navbar-text t" href="sobre.html">SOBRE</a>
-
+          
           </li>
 
         </ul>
 
       </div>
-
+        
     </nav>
 
     <div class="menu-overlay"></div>
@@ -82,138 +88,155 @@
     <aside class="side-menu-wrapper">
 
       <a href="" class="menu-close"><i class="fas fa-times"></i></a>
-
+    
       <ul>
-
+        
         <li class="nav-item">
-
+          
           <a class="" href="index.html">INICIO</a>
-
+          
         </li>
-
+          
         <li class="nav-item">
-
+          
           <a class="" href="novidades.html">NOVIDADES</a>
-
+          
         </li>
 
         <li class="nav-item">
-
+          
           <a class="" href="chefs.html">CHEFS</a>
-
+          
         </li>
 
         <li class="nav-item">
-
+          
           <a class="" href="receitas.html">RECEITAS</a>
-
+          
         </li>
 
         <li class="nav-item">
-
+          
           <a class="" href="sobre.html">SOBRE</a>
-
-        </li>
+          
+        </li>  
 
       </ul>
-
-    </aside>
+    
+    </aside> 
 
   </header>
-
-  <!---Chefes cadastrados-->
 
   <div class="center">
 
     <h1>CHEFS</h1>
 
-    <section style="border-radius: 25px;" class="card w33 left">
+    <section class="card w25 left">
 
-      <a href="chef_1.html" class="chef-title"> Alex Atalha </a>
-
-      <img style="height: 350px; border-radius: 25px;" src="alex-atalha.jpg" class="card-img-top">
-
-      <p> Receitas:<a href="#"></a></p>
-
-    </section>
-
-    <section style="border-radius: 25px;" class="card w33 middle">
-
-      <a href="chef_2.html" class="chef-title"> Erick Joaquin</a>
-
-      <img style="height: 350px; border-radius: 25px;" src="erick-joaquin.jpg" class="card-img-top">
-
-      <p> Receitas:<a href="#"></a></p>
-
-    </section>
-
-    <section style="border-radius: 25px;" class="card w33 right">
-
-      <a href="chef_3.html" class="chef-title"> Henrique Aguaça</a>
-
-      <img style="height: 350px; border-radius: 25px;" src="henrique-aguaca.jpg" class="card-img-top">
-
-      <p> Receitas:<a href="#"></a></p>
-
-    </section>
-
-
-    <section style="border-radius: 25px;" class="card w33 left">
-
-      <a href="chef_4.html" class="chef-title"> Paola Motosella</a>
-
-      <img style="height: 350px; border-radius: 25px;" src="paola-motosella.jpg" class="card-img-top">
-
-      <p> Receitas:<a href="#"></a></p>
-    
-    </section>
-
-
-    <section style="border-radius: 25px;" class="card w33 middle">
-
-      <a href="#" class="chef-title"> Paola Motosella</a>
-
-      <img style="height: 350px; border-radius: 25px;" src="paola-motosella.jpg" class="card-img-top">
+      <img src="imagens_chefes/alex_atalha.jpg" class="chef_chef">
       
-      <p> Receitas:<a href="#"></a></p>
+      <!--<div class="card-body">
+    
+        <h5 class="card-title">Alex Atalha</h5>
 
-    </section>
+        <p>Milad Alexandre Mack Atalha (São Paulo, 3 de junho de 1968), conhecido como Alex Atalha, é um chef de cozinha e restaurateur brasileiro.
 
+        Sua especialidade é a culinária francesa com ênfase em queijos e vinhos.</p>
+    
+        <button type="button" class="btn btn-default" data-toggle="modal" style=" background-color: #eeeeee; color: #161616; width: 90%; position: absolute; top: 85%; left: 5%;">
+          <font>VER MAIS</font></font>
 
-    <section style="border-radius: 25px;" class="card w33 right">
+        </button>
 
-       <a href="#" class="chef-title"> Paola Motosella</a>
+        data-target="#exampleModal"
+    
+      </div>card-body-->
+    
+    </section><!--card-->
 
-       <img style="height: 350px; border-radius: 25px;" src="paola-motosella.jpg" class="card-img-top">
+    <section class="card w25 middle">
 
-      <p> Receitas:<a href="#"></a></p>
+      <img src="imagens_chefes/erick_joaquin.jpg" class="chef_chef">
+      
+      <!--<div class="card-body">
+    
+        <h5 class="card-title">Érick Joaquin</h5>
 
-    </section>
+        <p>Érick Joaquin (São Paulo, 9 de dezembro de 1964) é um chef de cozinha, naturalizado francês.
+          
+        Sua especialidade é culinária brasileira com ênfase em pratos regionais como pão de queijo, baião de dois e churrasco gaúcho.</p>
 
+        data-target="#exampleModal"
+    
+      </div>card-body-->
+    
+    </section><!--card-->
 
-        <div class="clear"></div>
+    <section class="card w25 middle">
+
+      <img src="imagens_chefes/henrique_aguaca.jpg" class="chef_chef">
+      
+      <!--<div class="card-body">
+    
+        <h5 class="card-title">Henrique Aguaça</h5>
+
+        <p>Henrique Aranha Aguaça (Piracicaba, 1º de abril de 1974) é um chef de cozinha, empresário, bailarino e cantor brasileiro.
+
+        Sua especialidade são junk foods com ênfase em sanduiches, refrigerantes e fast foods.</p>
+
+        data-target="#exampleModal"
+    
+      </div>card-body-->
+    
+    </section><!--card-->
+
+    <section class="card w25 right">
+
+      <img src="imagens_chefes/paola_motosella.jpg" class="chef_chef">
+      
+      <!--<div class="card-body">
+    
+        <h5 class="card-title">Paola Motosella</h5>
+
+        <p>Paola Florencia Motosella (Buenos Aires, 30 de outubro de 1972), é uma empresária e chef argentina, italiana, naturalizada brasileira.
+
+        Sua especialidade são os frutos do mar com ênfase em camarão, polvo e lagosta.</p>
+
+        data-target="#exampleModal"
+    
+      </div>card-body-->
+
+      <div class="clear"></div>
+    
+    </section><!--card-->
 
   </div>
 
   <footer>
 
+    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+
+    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+
+    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+    
     <p>Desenvolvido por Psycho Devs<sup>TM</sup></p>
 
   </footer>
 
-  <!-- Bootstrap core JavaScript
+<!-- Bootstrap core JavaScript
  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery-3.2.1.slim.min.js"></script>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>
 
-  <script src="js/popper.min.js"></script>
+<script src="js/popper.min.js"></script>
 
-  <script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 
-  <script src="js/jquery.js"></script>
-  <!--<script src="<?php echo INCLUDE_PATH; ?>js/constants.js"></script>-->
+<script src="js/jquery.js"></script>
+ <!--<script src="<?php echo INCLUDE_PATH; ?>js/constants.js"></script>--> 
 
 </body>
 
