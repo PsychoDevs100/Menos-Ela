@@ -333,6 +333,15 @@ section.card{
 
 /*NOVIDADES*/
 
+.card-new{
+	background-color:#e6edec;
+	font-size: medium;
+}
+
+a.card-bodyn{
+	color: black;
+}
+
 
 /*CHEFS*/
 
@@ -452,7 +461,7 @@ footer{
 	overflow-y: hidden;
 }
 
-footer p{
+footer p {
 
 	position: relative;
 
