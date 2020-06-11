@@ -430,8 +430,22 @@ img.chef_image{
 
 /*NOVIDADES*/
 
+.card-new{
+	background-color:#e6edec;
+	font-size: medium;
+}
+
+a.card-bodyn{
+	color: black;
+}
+
+.center-novidades{
+	scroll-behavior: auto;
+}
+
 
 /*CHEFS*/
+
 
 img.chef_chef{
 
@@ -440,6 +454,30 @@ img.chef_chef{
 	height: 350px;
 
 	border-radius: 25px;
+}
+
+.chef-title{
+	color:white;
+	
+	text-align: center;
+}
+
+.chef-intro{
+	text-align: center;
+	
+}
+
+.imagem-chef{
+	text-align: center;
+}
+
+.main-chef{
+	margin: 20px 50px;
+	text-align: justify;
+	border: 1px #e6edec;
+    padding: 25px 50px 75px;
+	background-color:#e6edec ;
+	
 }
 
 
@@ -507,11 +545,23 @@ a.receita-title{
 
 /*SOBRE*/
 
-section.sobre{
+.sobre{
+    background-color: #e6edec; ;
+	border: 1px #e6edec;
+	margin: 20px 50px;
+	text-align: center;
+	border: 1px #e6edec;
+	padding: 25px 50px 75px;
+	
+}
 
+.sobre-imagem{
 	text-align: center;
 }
 
+.center-sobre{
+	scroll-behavior: auto;
+}
 
 /*Conteudo Paginas*/
 
