@@ -479,6 +479,16 @@ img.chef_chef{
 	background-color:#e6edec ;
 	
 }
+.buscar{
+	display: flex;
+	justify-content: space-around;
+	margin: 5px 5px;
+
+}
+.pesquisa{
+	text-align: right;
+	
+}
 
 
 /*RECEITAS*/
