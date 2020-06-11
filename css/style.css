@@ -443,6 +443,10 @@ a.card-bodyn{
 	scroll-behavior: auto;
 }
 
+.button{
+	border-color: none;
+	border-style: none;
+}
 
 /*CHEFS*/
 
@@ -483,13 +487,17 @@ img.chef_chef{
 	display: flex;
 	justify-content: space-around;
 	margin: 5px 5px;
+	border-color: aliceblue;
+	width: auto;
 
 }
 .pesquisa{
 	text-align: right;
-	
 }
 
+button{
+	background-color: aliceblue;
+}
 
 /*RECEITAS*/
 
