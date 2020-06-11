@@ -55,7 +55,7 @@ h5{
 
 	width: 100%;
 
-	padding: 0 2%;
+	padding: 0 8%;
 
 	margin: 0 auto;
 }
@@ -334,7 +334,7 @@ button.navbar-toggler{
 
 section.card{
 
-	background-color: #ff739e;
+	background-color: #e6724d;
 	
 	color: #333333;
 
@@ -349,6 +349,11 @@ section.card{
 	border-radius: 25px;
 
 	cursor: pointer;
+}
+
+section.card.w25{
+
+	background-color: #ff87ab;
 }
 
 section.card div.card-body p{
@@ -425,49 +430,27 @@ img.chef_image{
 
 /*NOVIDADES*/
 
-.card-new{
-	background-color:#e6edec;
-	font-size: medium;
-}
-
-a.card-bodyn{
-	color: black;
-}
-
-.center-novidades{
-	scroll-behavior: auto;
-}
-
-
 
 /*CHEFS*/
 
-.chef-title{
-	color:white;
-	
-	text-align: center;
-}
+img.chef_chef{
 
-.chef-intro{
-	text-align: center;
-	
-}
+	width: 100%;
 
-.imagem-chef{
-	text-align: center;
-}
+	height: 350px;
 
-.main-chef{
-	margin: 20px 50px;
-	text-align: justify;
-	border: 1px #e6edec;
-    padding: 25px 50px 75px;
-	background-color:#e6edec ;
-	
+	border-radius: 25px;
 }
 
 
 /*RECEITAS*/
+
+img.card-img-top{
+
+	height: 300px;
+
+	border-radius: 25px;
+}
 
 .receita-title{
 	color:white;
@@ -524,23 +507,11 @@ a.receita-title{
 
 /*SOBRE*/
 
-.sobre{
-    background-color: #e6edec; ;
-	border: 1px #e6edec;
-	margin: 20px 50px;
-	text-align: justify;
-	border: 1px #e6edec;
-	padding: 25px 50px 75px;
-	
-}
+section.sobre{
 
-.sobre-imagem{
 	text-align: center;
 }
 
-.center-sobre{
-	scroll-behavior: auto;
-}
 
 /*Conteudo Paginas*/
 
