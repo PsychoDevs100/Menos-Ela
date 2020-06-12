@@ -60,34 +60,27 @@ $(function(){
 			    slidesToScroll: 1,
 
 		        responsive: [
-				{
-		      		breakpoint: 1024,
-		      		
-		      		settings: {
-		        		
-		        		autoplay: true
-		      		}
+					{
+			      		breakpoint: 1024,
+			      		
+			      		settings: {
+			        		
+			        		autoplay: true,
 
-		  	    },
+			        		slidesToShow: 2
+			      		}
 
-		    	{
-		      		breakpoint: 768,
-		      		
-		      		settings: {
-		        		
-		        		slidesToShow: 2
-		      		}
+			  	    },
 
-		  	    },
+			    	{
+			      		breakpoint: 768,
+			      		
+			      		settings: {
+			        		
+			        		slidesToShow: 1
+			      		}
 
-		  	    {
-			      breakpoint: 375,
-			      	
-			      	settings: {
-
-			        	slidesToShow: 1
-			    	}
-		  	    }
+			  	    }
 
 		  	    ]
 
