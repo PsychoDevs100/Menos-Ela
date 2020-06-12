@@ -15,8 +15,6 @@
 
 html,body{
 
-	overflow-x: hidden;
-
 	height: 100%;
 
 	background-size: cover;
@@ -435,10 +433,6 @@ img.chef_image{
 	font-size: medium;
 }
 
-a.card-bodyn{
-	color: black;
-}
-
 .center-novidades{
 	scroll-behavior: auto;
 }
@@ -447,6 +441,18 @@ a.card-bodyn{
 	border-color: none;
 	border-style: none;
 }
+
+.new_post{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+
 
 /*CHEFS*/
 
