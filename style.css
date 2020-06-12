@@ -14,10 +14,9 @@
 }
 
 html,body{
-
-	overflow-x: hidden;
-
-	height: 100%;
+    overflow-x : hidden;
+	
+	/*height: 100%;*/
 
 	background-size: cover;
 	
@@ -40,13 +39,22 @@ h1{
 	margin-top: 3%;
 }
 
+h5{
+
+	color: #444;
+
+	text-align: center;
+
+	padding-bottom: 3%;
+}
+
 /*Boot CSS*/
 
 .center{
 
 	width: 100%;
 
-	padding: 0 2%;
+	padding: 0 8%;
 
 	margin: 0 auto;
 }
@@ -58,6 +66,13 @@ h1{
 	padding: 0 1%;
 
 	margin: 0 auto;
+}
+
+.w25{
+
+	display: inline-block;
+
+	width: 23%;
 }
 
 .w33{
@@ -318,7 +333,7 @@ button.navbar-toggler{
 
 section.card{
 
-	background-color: #fc9fbc;
+	background-color:  #ff739e;
 	
 	color: #333333;
 
@@ -329,12 +344,128 @@ section.card{
 	margin-bottom: 50px;
 
 	height: auto;
+
+	border-radius: 25px;
+
+	cursor: pointer;
+}
+
+section.card.w25{
+
+	background-color: #ff87ab;
+}
+
+section.card div.card-body p{
+
+	font-size: 16px;
+}
+
+/*Slick Slider*/
+
+div.slide_galery{
+
+	height: auto;
+
+	padding-top: 4%;
+
+	width: 100%;
+
+	margin-left: 0.6%;
+}
+
+div.slide_single{
+
+	height: 350px;
+
+	width: 30%;
+
+	margin-right: 1%;
+
+	display: inline-block;
+
+	background-size: 100% 100%;
+
+	cursor: pointer;
+
+	outline: none;
+}
+
+div.overlay{
+
+	width: 100%;
+
+	height: 100%;
+
+	background: transparent;
+
+	color: transparent;
+}
+
+div.overlay p{
+
+	position: relative;
+
+	top: 50%;
+
+	left: 90%;
+
+	text-transform: uppercase;
+
+	transform: translate(-50%,-50%);
+	
+	-ms-transform: translate(-50%,-50%);
+}
+
+img.chef_image{
+
+	width: 100%;
+
+	height: 50%;
+
+	border-top-right-radius: 25px;
+
+	border-top-left-radius: 25px;
 }
 
 /*NOVIDADES*/
 
+.card-new{
+	background-color:#e6edec;
+	font-size: medium;
+}
+
+.center-novidades{
+	scroll-behavior: auto;
+}
+
+.button{
+	border-color: none;
+	border-style: none;
+}
+
+.new_post{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+
 
 /*CHEFS*/
+
+
+img.chef_chef{
+
+	width: 100%;
+
+	height: 350px;
+
+	border-radius: 25px;
+}
 
 .chef-title{
 	color:white;
@@ -359,9 +490,30 @@ section.card{
 	background-color:#e6edec ;
 	
 }
+.buscar{
+	display: flex;
+	justify-content: space-around;
+	margin: 5px 5px;
+	border-color: aliceblue;
+	width: auto;
 
+}
+.pesquisa{
+	text-align: right;
+}
+
+button{
+	background-color: aliceblue;
+}
 
 /*RECEITAS*/
+
+img.card-img-top{
+
+	height: 300px;
+
+	border-radius: 25px;
+}
 
 .receita-title{
 	color:white;
@@ -422,15 +574,19 @@ a.receita-title{
     background-color: #e6edec; ;
 	border: 1px #e6edec;
 	margin: 20px 50px;
-	text-align: justify;
+	text-align: center;
 	border: 1px #e6edec;
-    padding: 25px 50px 75px;
-}
-section.footer{
-	position: absolute;
-
+	padding: 25px 50px 75px;
+	
 }
 
+.sobre-imagem{
+	text-align: center;
+}
+
+.center-sobre{
+	scroll-behavior: auto;
+}
 
 /*Conteudo Paginas*/
 
@@ -444,18 +600,39 @@ footer{
 
 	text-align: center;
 
-	width: 100%;
-
-	height: 10%;
+	width: auto;
 
 	overflow-y: hidden;
+
+	position: absolute;
+
+	bottom: 0;
 }
 
 footer p{
 
 	position: relative;
 
-	margin-top: 1.5%;
+}
+
+footer a{
+
+	display: inline-block;
+
+	padding-left: 1%; 
+
+	padding-right: 1%;
+
+	padding-top: 1%;
+
+	cursor: pointer;
+}
+
+footer a i{
+
+	text-decoration: none;
+
+	color: white;
 }
 
 .footer{
