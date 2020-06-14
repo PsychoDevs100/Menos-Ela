@@ -73,7 +73,7 @@ $(function(){
 			  	    },
 
 			    	{
-			      		breakpoint: 768,
+			      		breakpoint: 982,
 			      		
 			      		settings: {
 			        		
