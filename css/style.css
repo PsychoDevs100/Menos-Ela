@@ -572,8 +572,7 @@ img.chef_chef{
 
 img.chefe_image {
 
-height:350px;
-
+	height:350px;
 }
 
 /*RECEITAS*/
@@ -757,5 +756,52 @@ footer a i{
 		text-align: right; 
 
 		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 1025px){
+
+	.w33{
+
+		width: 48%;
+
+		margin-right: 2%;
+	}
+
+	.w25{
+
+		width: 48%;
+
+		margin-right: 2%;
+	}
+
+	.middle{
+
+		margin-left: 0;
+
+		float: left;
+	}
+
+	.right{
+
+		float: left;
+	}
+}
+
+@media screen and (max-width: 769px){
+
+	.w50{
+
+		width: 100%;
+	}
+
+	.w33{
+
+		width: 100%;
+	}
+
+	.w25{
+
+		width: 100%;
 	}
 }
