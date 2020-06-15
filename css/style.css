@@ -594,21 +594,10 @@ a.receita-title{
 	font-size: small;
 }
 
-.text-image{
-	
-	float: left;
-
-	width: auto;
-	
+.text-image{	
 }
 
 .text{
-	
-	float: right;
-
-	width: auto;
-
-	height: 100%;
 }
 
 .text li {
@@ -619,17 +608,9 @@ a.receita-title{
 }
 
 .part-1{
-	
-	width: fit-content;	
 }
 
 .part-2{
-	
-	width: fit-content;
-	
-	text-align: left;
-
-	padding-right: 50%;
 }
 
 /*SOBRE*/
