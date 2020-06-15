@@ -531,19 +531,6 @@ img.chef_chef{
 	text-align: center;
 }
 
-.main-chef{
-	
-	margin: 20px 50px;
-	
-	text-align: justify;
-	
-	border: 1px #e6edec;
-    
-    padding: 25px 50px 75px;
-	
-	background-color:#e6edec ;
-}
-
 .buscar{
 
 	display: flex;
@@ -560,6 +547,35 @@ img.chef_chef{
 .pesquisa{
 
 	text-align: right;
+}
+
+.texto-image{	
+}
+
+.texto{
+}
+
+.texto li {
+	
+	list-style: none;
+
+	flex-direction: column;
+}
+
+.part-1-chef {
+
+	background-color: #FF554E;
+}
+
+.part-2-chef{
+
+	background-color: #FF554E;
+}
+
+img.chefe_image {
+
+height:300px;
+
 }
 
 /*RECEITAS*/
