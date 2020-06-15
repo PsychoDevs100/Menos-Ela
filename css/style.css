@@ -39,6 +39,15 @@ h1{
 	margin-top: 3%;
 }
 
+h3{
+
+	color: #53d0d5;
+
+	text-align: center;
+
+	margin-bottom: 1.5%;
+}
+
 h5{
 
 	color: #444;
@@ -430,29 +439,69 @@ img.chef_image{
 /*NOVIDADES*/
 
 .card-new{
+
 	background-color:#e6edec;
+
 	font-size: medium;
+
+	text-align: center;
 }
 
-.center-novidades{
-	scroll-behavior: auto;
+button.button {
+
+	border: none;
+
+	position: relative;
+
+	left: 1%;
+
+	margin-top: 1%;
 }
 
-.button{
-	border-color: none;
-	border-style: none;
+button.button a{
+
+	font-size: 30px;
+
+	color: #f4791c;
 }
 
 .new_post{
+	
 	display: flex;
+
 	text-align: center;
+	
 	align-items: center;
+	
 	justify-content: center;
+	
 	flex-direction: column;
+	
 	justify-content: space-around;
 }
 
+/*New Post*/
 
+button.new_post{
+
+	font-size: 16px;
+
+	width: 400px;
+
+	border: none;
+
+	background-color: #f4791c;
+
+	padding: 20px 0;
+
+	position: relative;
+
+	left: 4%;
+
+	outline: none;
+
+	cursor: pointer;
+}
 
 
 /*CHEFS*/
@@ -463,47 +512,54 @@ img.chef_chef{
 	width: 100%;
 
 	height: 350px;
-
-	border-radius: 25px;
 }
 
 .chef-title{
+
 	color:white;
 	
 	text-align: center;
 }
 
 .chef-intro{
-	text-align: center;
-	
+
+	text-align: center;	
 }
 
 .imagem-chef{
+
 	text-align: center;
 }
 
 .main-chef{
-	margin: 20px 50px;
-	text-align: justify;
-	border: 1px #e6edec;
-    padding: 25px 50px 75px;
-	background-color:#e6edec ;
 	
+	margin: 20px 50px;
+	
+	text-align: justify;
+	
+	border: 1px #e6edec;
+    
+    padding: 25px 50px 75px;
+	
+	background-color:#e6edec ;
 }
+
 .buscar{
+
 	display: flex;
+
 	justify-content: space-around;
+
 	margin: 5px 5px;
+
 	border-color: aliceblue;
+
 	width: auto;
-
 }
+
 .pesquisa{
-	text-align: right;
-}
 
-button{
-	background-color: aliceblue;
+	text-align: right;
 }
 
 /*RECEITAS*/
@@ -516,16 +572,19 @@ img.card-img-top{
 }
 
 .receita-title{
+
 	color:white;
 
 	text-align: center;
 }
 
 a.receita-title{
+	
 	text-decoration:none;
 }
 
 .content{
+	
 	display: flex;
 
 	align-items: center;
@@ -536,6 +595,7 @@ a.receita-title{
 }
 
 .text-image{
+	
 	float: left;
 
 	width: auto;
@@ -543,6 +603,7 @@ a.receita-title{
 }
 
 .text{
+	
 	float: right;
 
 	width: auto;
@@ -551,16 +612,19 @@ a.receita-title{
 }
 
 .text li {
+	
 	list-style: none;
 
 	flex-direction: column;
 }
 
 .part-1{
+	
 	width: fit-content;	
 }
 
 .part-2{
+	
 	width: fit-content;
 	
 	text-align: left;
@@ -571,22 +635,27 @@ a.receita-title{
 /*SOBRE*/
 
 .sobre{
+    
     background-color: #e6edec; ;
+	
 	border: 1px #e6edec;
+	
 	margin: 20px 50px;
+	
 	text-align: center;
+	
 	border: 1px #e6edec;
+	
 	padding: 25px 50px 75px;
 	
 }
 
 .sobre-imagem{
+	
 	text-align: center;
 }
 
-.center-sobre{
-	scroll-behavior: auto;
-}
+
 
 /*Conteudo Paginas*/
 
