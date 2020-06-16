@@ -526,19 +526,17 @@ img.chef_chef{
 	text-align: center;	
 }
 
+.input-group.md-form.form-sm.form-2 input {
+	border: 1px solid #bdbdbd;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	margin-left: 700px;
+  }
 
-.buscar{
-
-	display: flex;
-
-	justify-content: space-around;
-
-	margin: 5px 5px;
-
-	border-color: aliceblue;
-
-	width: auto;
-}
+  .input-group-append{
+    border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+  }
 
 .pesquisa{
 
@@ -572,7 +570,8 @@ img.chef_chef{
 
 img.chefe_image {
 
-	height:450px;
+height:350px;
+
 }
 
 /*RECEITAS*/
@@ -756,52 +755,5 @@ footer a i{
 		text-align: right; 
 
 		margin-left: 0px;
-	}
-}
-
-@media screen and (max-width: 1025px){
-
-	.w33{
-
-		width: 48%;
-
-		margin-right: 2%;
-	}
-
-	.w25{
-
-		width: 48%;
-
-		margin-right: 2%;
-	}
-
-	.middle{
-
-		margin-left: 0;
-
-		float: left;
-	}
-
-	.right{
-
-		float: left;
-	}
-}
-
-@media screen and (max-width: 982px){
-
-	.w50{
-
-		width: 100%;
-	}
-
-	.w33{
-
-		width: 100%;
-	}
-
-	.w25{
-
-		width: 100%;
 	}
 }
