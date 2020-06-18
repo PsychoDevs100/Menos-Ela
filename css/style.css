@@ -526,23 +526,22 @@ img.chef_chef{
 	text-align: center;	
 }
 
-.input-group.md-form.form-sm.form-2 input {
-	border: 1px solid #bdbdbd;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;	
-	margin-left: 700px;
-  }
+.buscar{
 
-  .input-group-append{
-    border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-  }
-
-.pesquisa{
-
-	text-align: right;
+	margin-left: 900px;
+	
+	
 }
 
+.busca{
+	border-bottom-left-radius:5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius: 5px;
+	border: 1px solid #bdbdbd;
+	
+}
+}
 .texto-image{	
 }
 
